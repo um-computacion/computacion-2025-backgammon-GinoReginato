@@ -14,3 +14,14 @@ Cambios notables del proyecto se van a detallar en este archivo changelog
 ### Removed
 
 ## [1.1.1] - 2025-8-23
+
+## [Unreleased]
+
+### Added
+- Clase `Dice` implementada en `core/dice.py`.
+- Nueva clase `Dice` creada para manejar tiradas de dados.
+### Changed
+
+### Removed
+
+## [1.2.0] - 2025-8-26
