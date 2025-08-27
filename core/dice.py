@@ -6,5 +6,7 @@ class Dice:
     def roll(self):
         d1 = random.randint(1, 6)
         d2 = random.randint(1, 6)
-
+        self.__values__ = [d1, d2]
+        return self.__values__  if d1 != d2 else [d1]*4
+             
 
