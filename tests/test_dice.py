@@ -1,4 +1,4 @@
-import pytest
+import unittest
 from core.dice import Dice
 
 def test_roll_generates_two_values():
