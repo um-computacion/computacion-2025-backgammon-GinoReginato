@@ -8,4 +8,5 @@ class game:
         self.player2 = player2
         self.current_player = player1
         self.board = Board()
-        self.dice = Dice()
+        self.dice = Dice()   
+    
