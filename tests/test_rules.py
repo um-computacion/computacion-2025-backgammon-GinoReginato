@@ -29,7 +29,7 @@ class TestRules(unittest.TestCase):
         self.assertFalse(result)
 
     def test_invalid_wrong_dice(self):
-        
+        # intentar mover con un valor de dado incorrecto
         result = self.rules.is_valid_move(0, 5, 3, self.board)
         self.assertFalse(result)
 
