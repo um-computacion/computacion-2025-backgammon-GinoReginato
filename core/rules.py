@@ -6,3 +6,11 @@ class Rules:
         
         if not board[start]:
             return False
+
+        if len(board[end]) > 1 and board[end][0] != board[start][0]:
+            return False
+
+        if abs(end - start) != dice_value:
+            return False
+
+        return True
