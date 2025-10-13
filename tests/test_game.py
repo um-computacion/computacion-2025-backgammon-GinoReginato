@@ -7,14 +7,14 @@ class TestGame(unittest.TestCase):
         self.game = Game("Gino", "Pablo")
 
     def test_initial_turn(self):
-        # al inicio el turno es del jugador 1
-        self.assertEqual(self.game.get_turn().get_name(), "Gino")
+        # Al inicio el turno es del jugador 1
+        self.assertEqual(self.game.get_turn(), "Gino")
 
     def test_switch_turn(self):
         self.game.switch_turn()
-        self.assertEqual(self.game.get_turn().get_name(), "Pablo")
+        self.assertEqual(self.game.get_turn(), "Pablo")
         self.game.switch_turn()
-        self.assertEqual(self.game.get_turn().get_name(), "Gino")
+        self.assertEqual(self.game.get_turn(), "Gino")
 
     def test_roll_dice_returns_values(self):
         values = self.game.roll_dice()
