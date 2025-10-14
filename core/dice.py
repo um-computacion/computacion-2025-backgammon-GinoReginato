@@ -9,4 +9,5 @@ class Dice:
         self.__values__ = [d1, d2]
         return self.__values__  if d1 != d2 else [d1]*4
              
-
+    def get_values(self):
+        return self.__values__
